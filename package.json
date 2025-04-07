@@ -3,7 +3,7 @@
   "description": "Vercel Deployment for Compiler API",
   "scripts": {
     "dev": "node server.js",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "deploy": "vercel deploy --prod",
     "test": "jest"
   },
